@@ -10,5 +10,7 @@ package tiendamusicamatijon;
  * @author matia
  */
 public interface Operable {
+    //Calcula el precio total
+    public int precioTotal();
     
 }
