@@ -12,7 +12,7 @@ package TiendaMusica;
 public class Disco extends Producto{
     private String artista;
     private int annio;
-        //Podríamos también agregar "private String formato;" para especificar si es casset, cd, vinilo o digital.
+        //Podríamos también agregar "private String formato;" para especificar si es casset, cd, vinilo o digital. -Mati
     
     public Disco(){
         
