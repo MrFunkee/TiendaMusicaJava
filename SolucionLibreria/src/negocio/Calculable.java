@@ -9,12 +9,8 @@ package negocio;
  *
  * @author claus
  */
-public interface Calculable {
-    //Se utilizará para aplicar el descuento el la formula
     final int DESCUENTO = 10;
-    //es precio * cantidad
+    //Descuento aplicado a compras mayores a 20000 pesos
     public int calcularTotal();
-    //retornar el total con -10% si es empresa usando la constante
-    //si es persona retorne 0
-    public int calcularTotalConDescuento();
+    //Calcular total de la compra sumando el precio de todos los productos
 }
